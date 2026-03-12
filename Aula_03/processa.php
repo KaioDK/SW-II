@@ -31,6 +31,15 @@
         }
         else
             echo "<p style = 'color: red'> Você é maior de idade! </p>";
+        echo "<hr>";
+
+        echo "<h1>LISTA DE CLIENTES</h1>";
+        echo "<ul>";
+        //laço
+        for ( $i = 1; $i <= rand(30,200); $i++){
+            echo "<li> Cliente $i </li>" ;
+        }
+        echo "</ul>";
 
     ?>
     </body>
